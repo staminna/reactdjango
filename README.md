@@ -6,7 +6,7 @@ This is a full-stack web application built with Django backend and React fronten
 
 ```
 djangoreact/
-├── frontend/           # React application
+├── reactfrontend/           # React application
 ├── mysite/            # Django project settings
 ├── manage.py          # Django management script
 └── README.md          # This file
@@ -43,7 +43,7 @@ python manage.py migrate
 
 1. Navigate to the frontend directory:
 ```bash
-cd frontend
+cd reactfrontend
 ```
 
 2. Install Node dependencies:
@@ -67,7 +67,7 @@ python manage.py runserver
 
 2. For frontend development, in a separate terminal:
 ```bash
-cd frontend
+cd reactfrontend
 npm start
 ```
 
